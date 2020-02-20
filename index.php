@@ -15,9 +15,7 @@ require 'Controller/HomepageController.php';
 
 $userIndex = new User();
 
-/*$userStorage = new  User();
-localStorage.setItem(‘allCustomers’, $userStorage->getAllCustomers());
-localStorage.setItem(‘allProducts’, $userStorage->getAllProducts());*/
+
 if(isset($_SESSION)){
 //if($_SESSION["products"] == null &&  $_SESSION["customers"] == null){
     $_SESSION["products"] =$userIndex->getAllProducts();
@@ -29,5 +27,5 @@ if(isset($_SESSION)){
 //this file should never be more than 20 lines of code
 $controller = new HomepageController();
 $controller->postIsset();
-//$controller->render($_GET, $_POST);
+
 

@@ -15,14 +15,6 @@ class Groups
      * @param int $variable_discount
      * @param int $group_id
      */
- /*   public function __construct(int $id, string $name, int $variable_discount, int $group_id)
-    {
-        $this->id = $id;
-        $this->name = $name;
-        $this->variable_discount = $variable_discount;
-        $this->group_id = $group_id;
-    }*/
-
 
     /**
      * @return int
